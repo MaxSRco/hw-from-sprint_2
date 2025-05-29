@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/hw-from-sprint_2/static/css/main.c0e7b9f8.css",
+    "main.js": "/hw-from-sprint_2/static/js/main.eb7c19a6.js",
+    "static/js/787.66cb4309.chunk.js": "/hw-from-sprint_2/static/js/787.66cb4309.chunk.js",
+    "static/media/avatarBradPitt.png": "/hw-from-sprint_2/static/media/avatarBradPitt.d947cb9d0d13765666b6.png",
+    "index.html": "/hw-from-sprint_2/index.html",
+    "main.c0e7b9f8.css.map": "/hw-from-sprint_2/static/css/main.c0e7b9f8.css.map",
+    "main.eb7c19a6.js.map": "/hw-from-sprint_2/static/js/main.eb7c19a6.js.map",
+    "787.66cb4309.chunk.js.map": "/hw-from-sprint_2/static/js/787.66cb4309.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0e7b9f8.css",
+    "static/js/main.eb7c19a6.js"
+  ]
+}
