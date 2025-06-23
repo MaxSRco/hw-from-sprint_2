@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/hw-from-sprint_2/static/css/main.102a479f.css",
-    "main.js": "/hw-from-sprint_2/static/js/main.82881a70.js",
+    "main.css": "/hw-from-sprint_2/static/css/main.241dfa70.css",
+    "main.js": "/hw-from-sprint_2/static/js/main.e0f0bcd4.js",
     "static/js/787.66cb4309.chunk.js": "/hw-from-sprint_2/static/js/787.66cb4309.chunk.js",
     "static/media/avatarBradPitt.png": "/hw-from-sprint_2/static/media/avatarBradPitt.d947cb9d0d13765666b6.png",
     "index.html": "/hw-from-sprint_2/index.html",
-    "main.102a479f.css.map": "/hw-from-sprint_2/static/css/main.102a479f.css.map",
-    "main.82881a70.js.map": "/hw-from-sprint_2/static/js/main.82881a70.js.map",
+    "static/media/checked.svg": "/hw-from-sprint_2/static/media/checked.b75ca55e8759862b4083.svg",
+    "main.241dfa70.css.map": "/hw-from-sprint_2/static/css/main.241dfa70.css.map",
+    "main.e0f0bcd4.js.map": "/hw-from-sprint_2/static/js/main.e0f0bcd4.js.map",
     "787.66cb4309.chunk.js.map": "/hw-from-sprint_2/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.102a479f.css",
-    "static/js/main.82881a70.js"
+    "static/css/main.241dfa70.css",
+    "static/js/main.e0f0bcd4.js"
   ]
 }
