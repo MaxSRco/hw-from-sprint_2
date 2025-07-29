@@ -6,9 +6,9 @@ import SuperButton from '../hw04/common/c2-SuperButton/SuperButton'
 import s from './HW6.module.css'
 
 /*
- * 1 - в файле SuperEditableSpan.tsx дописать логику функций onEnterCallback, onBlurCallback, onDoubleClickCallBack
+ * 1 - в файле SuperEditableSpan.tsx дописать логику функций onEnterCallback, onBlurCallback, onDoubleClickCallBack - DONE!!!
  * 2 - дописать логику функции restore
- * 3 - сделать стили в соответствии с дизайном
+ * 3 - сделать стили в соответствии с дизайном - DONE!!!
  */
 
 const HW6 = () => {
@@ -19,7 +19,8 @@ const HW6 = () => {
     }
     const restore = () => {
         // делают студенты
-
+        let savedState = restoreState<string>('hw6-editable-span-value', value)
+        setValue(savedState === null ? 'Enter text...' : savedState)
     }
 
     return (
@@ -35,13 +36,16 @@ const HW6 = () => {
                         onChangeText={setValue}
                         spanProps={{
                             id: 'hw6-editable-span',
-                            defaultText: 'enter text...',
+                            defaultText: 'Enter text...',
                         }}
                     />
                 </div>
 
                 <div className={s.buttonsContainer}>
-                    <SuperButton id={'hw6-save'} onClick={save}>
+                    <SuperButton
+                        id={'hw6-save'}
+                        onClick={save}
+                    >
                         Save to ls
                     </SuperButton>
                     <SuperButton
