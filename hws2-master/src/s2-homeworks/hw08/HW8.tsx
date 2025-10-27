@@ -7,7 +7,7 @@ import User from './User'
 
 /*
 * 1 - дописать типы и логику (сортировка по имени, фильтрация по совершеннолетию) homeWorkReducer, проверить тестом
-* 2 - дописать компоненту User
+* 2 - дописать компоненту User - DONE!
 * 3 - сделать стили в соответствии с дизайном
 * */
 
@@ -25,6 +25,7 @@ const initialPeople: UserType[] = [
     {_id: 3, name: 'Виктор', age: 44},
     {_id: 4, name: 'Дмитрий', age: 40},
     {_id: 5, name: 'Ирина', age: 55},
+    {_id: 6, name: 'Алексей', age: 32},
 ]
 
 const HW8 = () => {
@@ -46,6 +47,7 @@ const HW8 = () => {
         ) // в обратном порядке a.name < b.name}
         setCurrentSort('down')
     }
+    
     const check18 = () => {
         setPeople(
             homeWorkReducer(initialPeople, {type: 'check', payload: 18})
@@ -59,21 +61,21 @@ const HW8 = () => {
             <div className={s2.hw}>
                 <div className={s.container}>
                     <div className={s.buttonsContainer}>
-                        <SuperButton
+                        <SuperButton className={s.button}
                             id={'hw8-button-up'}
                             onClick={sortUp}
                             xType={currentSort === 'up' ? '' : 'secondary'}
                         >
                             Sort up
                         </SuperButton>
-                        <SuperButton
+                        <SuperButton className={s.button}
                             id={'hw8-button-down'}
                             onClick={sortDown}
                             xType={currentSort === 'down' ? '' : 'secondary'}
                         >
                             Sort down
                         </SuperButton>
-                        <SuperButton
+                        <SuperButton className={s.button}
                             id={'hw8-button-18'}
                             onClick={check18}
                             xType={currentSort === '18' ? '' : 'secondary'}
