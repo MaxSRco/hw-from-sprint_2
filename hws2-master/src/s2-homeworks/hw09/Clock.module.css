@@ -15,7 +15,7 @@
 }
 
 .watch:hover {
-    cursor: default;
+    cursor: default !important;
 }
 
 .watch strong {
