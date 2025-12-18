@@ -41,6 +41,9 @@ const SuperRange: React.FC<SliderProps> = (props) => {
           border: '1px solid #0C2',
           backgroundColor: '#0C2',
           transform: 'translate(-50%, -50%)'
+        },
+        '& .MuiSlider-thumb.Mui-active': {
+          boxShadow: 'none'
         }
       }}
       {...props} // отдаём слайдеру пропсы если они есть (value например там внутри)
