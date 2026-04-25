@@ -18,6 +18,15 @@ html {
     color: var(--color);
 }
 
-.select {
+p {
+    margin-bottom: 6px;
+}
 
+.select {
+    margin-block: 6px 295px;
+    width: 170px;
+    height: 36px;
+    padding-right: 20px;
+    background-color: var(--background);
+    color: var(--color);
 }
